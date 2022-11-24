@@ -14,6 +14,7 @@ public class AuthorController {
         this.authorRepository = authorRepository;
     }
 
+    //This is for returning authors.
     @RequestMapping("/authors")
     public String getAuthors(Model model) {
 
